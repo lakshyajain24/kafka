@@ -1,0 +1,1025 @@
+[2022-01-05 08:22:01,256] {scheduler_job.py:182} INFO - Started process (PID=26) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 08:22:01,368] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 08:22:01,369] {logging_mixin.py:104} INFO - [2022-01-05 08:22:01,369] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:22:04,054] {logging_mixin.py:104} INFO - [2022-01-05 08:22:04,051] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/sqldata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqldata.py", line 11, in <module>
+    from data_cleaning import split_df
+ModuleNotFoundError: No module named 'data_cleaning'
+[2022-01-05 08:22:04,059] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:22:04,227] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 2.974 seconds
+[2022-01-05 08:22:34,324] {scheduler_job.py:182} INFO - Started process (PID=27) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 08:22:34,325] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 08:22:34,326] {logging_mixin.py:104} INFO - [2022-01-05 08:22:34,326] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:22:34,611] {logging_mixin.py:104} INFO - [2022-01-05 08:22:34,608] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/sqldata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqldata.py", line 11, in <module>
+    from data_cleaning import split_df
+ModuleNotFoundError: No module named 'data_cleaning'
+[2022-01-05 08:22:34,614] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:22:34,732] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 0.412 seconds
+[2022-01-05 08:23:04,821] {scheduler_job.py:182} INFO - Started process (PID=28) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 08:23:04,825] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 08:23:04,826] {logging_mixin.py:104} INFO - [2022-01-05 08:23:04,826] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:23:05,806] {logging_mixin.py:104} INFO - [2022-01-05 08:23:05,798] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/sqldata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqldata.py", line 11, in <module>
+    from data_cleaning import split_df
+ModuleNotFoundError: No module named 'data_cleaning'
+[2022-01-05 08:23:05,814] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:23:06,004] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 1.200 seconds
+[2022-01-05 08:23:36,108] {scheduler_job.py:182} INFO - Started process (PID=29) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 08:23:36,117] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 08:23:36,124] {logging_mixin.py:104} INFO - [2022-01-05 08:23:36,124] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:23:37,550] {logging_mixin.py:104} INFO - [2022-01-05 08:23:37,540] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/sqldata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqldata.py", line 11, in <module>
+    from data_cleaning import split_df
+ModuleNotFoundError: No module named 'data_cleaning'
+[2022-01-05 08:23:37,559] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:23:37,694] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 1.609 seconds
+[2022-01-05 08:24:08,060] {scheduler_job.py:182} INFO - Started process (PID=30) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 08:24:08,065] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 08:24:08,069] {logging_mixin.py:104} INFO - [2022-01-05 08:24:08,068] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:24:14,449] {logging_mixin.py:104} INFO - [2022-01-05 08:24:14,435] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/sqldata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqldata.py", line 11, in <module>
+    from data_cleaning import split_df
+ModuleNotFoundError: No module named 'data_cleaning'
+[2022-01-05 08:24:14,456] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:24:14,587] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 6.536 seconds
+[2022-01-05 08:24:44,668] {scheduler_job.py:182} INFO - Started process (PID=31) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 08:24:44,669] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 08:24:44,670] {logging_mixin.py:104} INFO - [2022-01-05 08:24:44,670] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:24:45,678] {logging_mixin.py:104} INFO - [2022-01-05 08:24:45,675] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/sqldata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqldata.py", line 11, in <module>
+    from data_cleaning import split_df
+ModuleNotFoundError: No module named 'data_cleaning'
+[2022-01-05 08:24:45,683] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:24:45,732] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 1.067 seconds
+[2022-01-05 08:25:15,784] {scheduler_job.py:182} INFO - Started process (PID=32) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 08:25:15,786] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 08:25:15,788] {logging_mixin.py:104} INFO - [2022-01-05 08:25:15,788] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:25:21,224] {logging_mixin.py:104} INFO - [2022-01-05 08:25:21,218] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/sqldata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqldata.py", line 11, in <module>
+    from data_cleaning import split_df
+ModuleNotFoundError: No module named 'data_cleaning'
+[2022-01-05 08:25:21,234] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:25:21,337] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 5.559 seconds
+[2022-01-05 08:25:51,423] {scheduler_job.py:182} INFO - Started process (PID=33) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 08:25:51,425] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 08:25:51,426] {logging_mixin.py:104} INFO - [2022-01-05 08:25:51,426] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:25:54,108] {logging_mixin.py:104} INFO - [2022-01-05 08:25:54,057] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/sqldata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqldata.py", line 11, in <module>
+    from data_cleaning import split_df
+ModuleNotFoundError: No module named 'data_cleaning'
+[2022-01-05 08:25:54,115] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:25:54,482] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 3.064 seconds
+[2022-01-05 08:26:24,521] {scheduler_job.py:182} INFO - Started process (PID=34) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 08:26:24,523] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 08:26:24,525] {logging_mixin.py:104} INFO - [2022-01-05 08:26:24,525] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:26:27,805] {logging_mixin.py:104} INFO - [2022-01-05 08:26:27,800] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/sqldata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqldata.py", line 11, in <module>
+    from data_cleaning import split_df
+ModuleNotFoundError: No module named 'data_cleaning'
+[2022-01-05 08:26:27,811] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:26:27,873] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 3.357 seconds
+[2022-01-05 08:26:57,936] {scheduler_job.py:182} INFO - Started process (PID=35) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 08:26:57,937] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 08:26:57,938] {logging_mixin.py:104} INFO - [2022-01-05 08:26:57,938] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:26:59,775] {logging_mixin.py:104} INFO - [2022-01-05 08:26:59,772] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/sqldata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqldata.py", line 11, in <module>
+    from data_cleaning import split_df
+ModuleNotFoundError: No module named 'data_cleaning'
+[2022-01-05 08:26:59,778] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:26:59,825] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 1.892 seconds
+[2022-01-05 08:27:29,910] {scheduler_job.py:182} INFO - Started process (PID=36) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 08:27:29,913] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 08:27:29,914] {logging_mixin.py:104} INFO - [2022-01-05 08:27:29,914] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:27:38,805] {logging_mixin.py:104} INFO - [2022-01-05 08:27:38,790] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/sqldata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqldata.py", line 11, in <module>
+    from data_cleaning import split_df
+ModuleNotFoundError: No module named 'data_cleaning'
+[2022-01-05 08:27:38,809] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:27:38,902] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 8.999 seconds
+[2022-01-05 08:28:09,000] {scheduler_job.py:182} INFO - Started process (PID=37) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 08:28:09,003] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 08:28:09,005] {logging_mixin.py:104} INFO - [2022-01-05 08:28:09,004] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:28:12,168] {logging_mixin.py:104} INFO - [2022-01-05 08:28:12,161] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/sqldata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqldata.py", line 11, in <module>
+    from data_cleaning import split_df
+ModuleNotFoundError: No module named 'data_cleaning'
+[2022-01-05 08:28:12,173] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:28:12,224] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 3.230 seconds
+[2022-01-05 08:28:42,299] {scheduler_job.py:182} INFO - Started process (PID=38) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 08:28:42,301] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 08:28:42,302] {logging_mixin.py:104} INFO - [2022-01-05 08:28:42,302] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:28:44,030] {logging_mixin.py:104} INFO - [2022-01-05 08:28:44,025] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/sqldata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqldata.py", line 11, in <module>
+    from data_cleaning import split_df
+ModuleNotFoundError: No module named 'data_cleaning'
+[2022-01-05 08:28:44,045] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:28:44,124] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 1.830 seconds
+[2022-01-05 08:29:14,256] {scheduler_job.py:182} INFO - Started process (PID=39) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 08:29:14,257] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 08:29:14,258] {logging_mixin.py:104} INFO - [2022-01-05 08:29:14,258] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:29:22,042] {logging_mixin.py:104} INFO - [2022-01-05 08:29:22,004] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/sqldata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqldata.py", line 11, in <module>
+    from data_cleaning import split_df
+ModuleNotFoundError: No module named 'data_cleaning'
+[2022-01-05 08:29:22,051] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:29:22,161] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 7.908 seconds
+[2022-01-05 08:29:52,446] {scheduler_job.py:182} INFO - Started process (PID=40) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 08:29:52,448] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 08:29:52,449] {logging_mixin.py:104} INFO - [2022-01-05 08:29:52,449] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:29:57,623] {logging_mixin.py:104} INFO - [2022-01-05 08:29:57,607] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/sqldata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqldata.py", line 11, in <module>
+    from data_cleaning import split_df
+ModuleNotFoundError: No module named 'data_cleaning'
+[2022-01-05 08:29:57,631] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:29:57,753] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 5.411 seconds
+[2022-01-05 08:30:27,874] {scheduler_job.py:182} INFO - Started process (PID=41) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 08:30:27,876] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 08:30:27,877] {logging_mixin.py:104} INFO - [2022-01-05 08:30:27,877] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:30:36,818] {logging_mixin.py:104} INFO - [2022-01-05 08:30:36,792] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/sqldata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqldata.py", line 11, in <module>
+    from data_cleaning import split_df
+ModuleNotFoundError: No module named 'data_cleaning'
+[2022-01-05 08:30:36,822] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:30:36,876] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 9.054 seconds
+[2022-01-05 08:31:06,983] {scheduler_job.py:182} INFO - Started process (PID=42) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 08:31:06,985] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 08:31:06,986] {logging_mixin.py:104} INFO - [2022-01-05 08:31:06,986] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:31:11,377] {logging_mixin.py:104} INFO - [2022-01-05 08:31:11,361] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/sqldata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqldata.py", line 11, in <module>
+    from data_cleaning import split_df
+ModuleNotFoundError: No module named 'data_cleaning'
+[2022-01-05 08:31:11,382] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:31:11,497] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 4.562 seconds
+[2022-01-05 08:31:42,894] {scheduler_job.py:182} INFO - Started process (PID=43) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 08:31:42,896] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 08:31:42,897] {logging_mixin.py:104} INFO - [2022-01-05 08:31:42,896] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:31:50,826] {logging_mixin.py:104} INFO - [2022-01-05 08:31:50,812] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/sqldata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqldata.py", line 11, in <module>
+    from data_cleaning import split_df
+ModuleNotFoundError: No module named 'data_cleaning'
+[2022-01-05 08:31:50,829] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:31:51,027] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 9.399 seconds
+[2022-01-05 08:32:21,270] {scheduler_job.py:182} INFO - Started process (PID=44) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 08:32:21,274] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 08:32:21,277] {logging_mixin.py:104} INFO - [2022-01-05 08:32:21,276] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:32:28,795] {logging_mixin.py:104} INFO - [2022-01-05 08:32:28,192] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/sqldata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqldata.py", line 11, in <module>
+    from data_cleaning import split_df
+ModuleNotFoundError: No module named 'data_cleaning'
+[2022-01-05 08:32:28,802] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:32:32,166] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 10.967 seconds
+[2022-01-05 08:33:02,275] {scheduler_job.py:182} INFO - Started process (PID=45) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 08:33:02,277] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 08:33:02,279] {logging_mixin.py:104} INFO - [2022-01-05 08:33:02,278] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:33:09,036] {logging_mixin.py:104} INFO - [2022-01-05 08:33:09,000] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/sqldata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqldata.py", line 11, in <module>
+    from data_cleaning import split_df
+ModuleNotFoundError: No module named 'data_cleaning'
+[2022-01-05 08:33:09,042] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:33:09,498] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 7.228 seconds
+[2022-01-05 08:33:39,764] {scheduler_job.py:182} INFO - Started process (PID=46) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 08:33:39,767] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 08:33:39,769] {logging_mixin.py:104} INFO - [2022-01-05 08:33:39,768] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:33:46,521] {logging_mixin.py:104} INFO - [2022-01-05 08:33:46,237] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/sqldata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqldata.py", line 11, in <module>
+    from data_cleaning import split_df
+ModuleNotFoundError: No module named 'data_cleaning'
+[2022-01-05 08:33:46,526] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:33:48,878] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 9.151 seconds
+[2022-01-05 08:34:19,534] {scheduler_job.py:182} INFO - Started process (PID=47) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 08:34:19,537] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 08:34:19,538] {logging_mixin.py:104} INFO - [2022-01-05 08:34:19,538] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:34:27,897] {logging_mixin.py:104} INFO - [2022-01-05 08:34:27,880] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/sqldata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqldata.py", line 11, in <module>
+    from data_cleaning import split_df
+ModuleNotFoundError: No module named 'data_cleaning'
+[2022-01-05 08:34:27,903] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:34:28,788] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 9.287 seconds
+[2022-01-05 08:34:58,874] {scheduler_job.py:182} INFO - Started process (PID=48) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 08:34:58,876] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 08:34:58,877] {logging_mixin.py:104} INFO - [2022-01-05 08:34:58,877] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:35:08,633] {logging_mixin.py:104} INFO - [2022-01-05 08:35:08,562] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/sqldata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqldata.py", line 11, in <module>
+    from data_cleaning import split_df
+ModuleNotFoundError: No module named 'data_cleaning'
+[2022-01-05 08:35:08,638] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:35:08,816] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 9.965 seconds
+[2022-01-05 08:35:38,886] {scheduler_job.py:182} INFO - Started process (PID=49) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 08:35:38,887] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 08:35:38,889] {logging_mixin.py:104} INFO - [2022-01-05 08:35:38,888] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:35:50,187] {logging_mixin.py:104} INFO - [2022-01-05 08:35:49,396] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/sqldata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqldata.py", line 11, in <module>
+    from data_cleaning import split_df
+ModuleNotFoundError: No module named 'data_cleaning'
+[2022-01-05 08:35:50,192] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:35:53,798] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 14.921 seconds
+[2022-01-05 08:36:24,220] {scheduler_job.py:182} INFO - Started process (PID=50) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 08:36:24,222] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 08:36:24,224] {logging_mixin.py:104} INFO - [2022-01-05 08:36:24,223] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:36:34,989] {logging_mixin.py:104} INFO - [2022-01-05 08:36:34,974] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/sqldata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqldata.py", line 11, in <module>
+    from data_cleaning import split_df
+ModuleNotFoundError: No module named 'data_cleaning'
+[2022-01-05 08:36:34,995] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:36:35,096] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 10.952 seconds
+[2022-01-05 08:37:05,188] {scheduler_job.py:182} INFO - Started process (PID=51) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 08:37:05,190] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 08:37:05,191] {logging_mixin.py:104} INFO - [2022-01-05 08:37:05,191] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:37:15,894] {logging_mixin.py:104} INFO - [2022-01-05 08:37:14,917] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/sqldata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqldata.py", line 11, in <module>
+    from data_cleaning import split_df
+ModuleNotFoundError: No module named 'data_cleaning'
+[2022-01-05 08:37:15,901] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:37:17,285] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 12.123 seconds
+[2022-01-05 08:37:47,750] {scheduler_job.py:182} INFO - Started process (PID=52) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 08:37:47,753] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 08:37:47,754] {logging_mixin.py:104} INFO - [2022-01-05 08:37:47,754] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:37:56,070] {logging_mixin.py:104} INFO - [2022-01-05 08:37:56,053] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/sqldata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqldata.py", line 11, in <module>
+    from data_cleaning import split_df
+ModuleNotFoundError: No module named 'data_cleaning'
+[2022-01-05 08:37:56,076] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:37:56,245] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 8.783 seconds
+[2022-01-05 08:38:26,377] {scheduler_job.py:182} INFO - Started process (PID=53) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 08:38:26,379] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 08:38:26,380] {logging_mixin.py:104} INFO - [2022-01-05 08:38:26,380] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:38:32,012] {logging_mixin.py:104} INFO - [2022-01-05 08:38:31,851] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/sqldata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqldata.py", line 11, in <module>
+    from data_cleaning import split_df
+ModuleNotFoundError: No module named 'data_cleaning'
+[2022-01-05 08:38:32,018] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:38:35,092] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 8.731 seconds
+[2022-01-05 08:39:05,257] {scheduler_job.py:182} INFO - Started process (PID=54) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 08:39:05,259] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 08:39:05,261] {logging_mixin.py:104} INFO - [2022-01-05 08:39:05,261] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:39:11,152] {logging_mixin.py:104} INFO - [2022-01-05 08:39:11,147] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/sqldata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqldata.py", line 11, in <module>
+    from data_cleaning import split_df
+ModuleNotFoundError: No module named 'data_cleaning'
+[2022-01-05 08:39:11,157] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:39:11,451] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 6.216 seconds
+[2022-01-05 08:39:41,583] {scheduler_job.py:182} INFO - Started process (PID=55) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 08:39:41,585] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 08:39:41,585] {logging_mixin.py:104} INFO - [2022-01-05 08:39:41,585] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:39:54,686] {logging_mixin.py:104} INFO - [2022-01-05 08:39:54,043] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/sqldata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqldata.py", line 11, in <module>
+    from data_cleaning import split_df
+ModuleNotFoundError: No module named 'data_cleaning'
+[2022-01-05 08:39:54,769] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:39:56,336] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 14.755 seconds
+[2022-01-05 08:40:26,456] {scheduler_job.py:182} INFO - Started process (PID=56) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 08:40:26,457] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 08:40:26,459] {logging_mixin.py:104} INFO - [2022-01-05 08:40:26,459] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:40:34,135] {logging_mixin.py:104} INFO - [2022-01-05 08:40:34,098] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/sqldata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqldata.py", line 11, in <module>
+    from data_cleaning import split_df
+ModuleNotFoundError: No module named 'data_cleaning'
+[2022-01-05 08:40:34,140] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:40:35,524] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 9.087 seconds
+[2022-01-05 08:41:05,622] {scheduler_job.py:182} INFO - Started process (PID=57) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 08:41:05,624] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 08:41:05,626] {logging_mixin.py:104} INFO - [2022-01-05 08:41:05,626] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:41:36,485] {logging_mixin.py:104} INFO - [2022-01-05 08:41:36,485] {timeout.py:36} ERROR - Process timed out, PID: 57
+[2022-01-05 08:41:41,022] {logging_mixin.py:104} INFO - [2022-01-05 08:41:36,631] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/sqldata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqldata.py", line 9, in <module>
+    import pandas as pd
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/__init__.py", line 52, in <module>
+    from pandas.core.api import (
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/api.py", line 29, in <module>
+    from pandas.core.groupby import Grouper, NamedAgg
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/groupby/__init__.py", line 1, in <module>
+    from pandas.core.groupby.generic import DataFrameGroupBy, NamedAgg, SeriesGroupBy
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/groupby/generic.py", line 57, in <module>
+    from pandas.core.aggregation import (
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/aggregation.py", line 27, in <module>
+    from pandas.core.series import FrameOrSeriesUnion, Series
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 764, in get_code
+  File "<frozen importlib._bootstrap_external>", line 833, in get_data
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/sqldata.py after 30.0s, PID: 57
+[2022-01-05 08:41:41,380] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:42:16,566] {scheduler_job.py:182} INFO - Started process (PID=59) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 08:42:16,569] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 08:42:16,570] {logging_mixin.py:104} INFO - [2022-01-05 08:42:16,570] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:42:43,815] {logging_mixin.py:104} INFO - [2022-01-05 08:42:43,789] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/sqldata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqldata.py", line 11, in <module>
+    from data_cleaning import split_df
+ModuleNotFoundError: No module named 'data_cleaning'
+[2022-01-05 08:42:43,822] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:42:43,951] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 27.387 seconds
+[2022-01-05 08:43:14,179] {scheduler_job.py:182} INFO - Started process (PID=60) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 08:43:14,182] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 08:43:14,185] {logging_mixin.py:104} INFO - [2022-01-05 08:43:14,184] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:43:18,544] {logging_mixin.py:104} INFO - [2022-01-05 08:43:18,527] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/sqldata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqldata.py", line 11, in <module>
+    from data_cleaning import split_df
+ModuleNotFoundError: No module named 'data_cleaning'
+[2022-01-05 08:43:18,570] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:43:18,883] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 4.737 seconds
+[2022-01-05 08:43:49,221] {scheduler_job.py:182} INFO - Started process (PID=61) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 08:43:49,227] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 08:43:49,230] {logging_mixin.py:104} INFO - [2022-01-05 08:43:49,229] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:44:04,921] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-01-05 08:44:08,543] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:44:17,552] {logging_mixin.py:104} INFO - [2022-01-05 08:44:17,552] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-01-05 08:44:17,671] {logging_mixin.py:104} INFO - [2022-01-05 08:44:17,670] {dag.py:1837} INFO - Creating ORM DAG for data_transform
+[2022-01-05 08:44:18,399] {logging_mixin.py:104} INFO - [2022-01-05 08:44:18,399] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2022-01-04 00:00:00+00:00
+[2022-01-05 08:44:20,261] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 31.067 seconds
+[2022-01-05 08:44:50,520] {scheduler_job.py:182} INFO - Started process (PID=62) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 08:44:50,522] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 08:44:50,524] {logging_mixin.py:104} INFO - [2022-01-05 08:44:50,523] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:45:04,231] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-01-05 08:45:05,966] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:45:06,995] {logging_mixin.py:104} INFO - [2022-01-05 08:45:06,995] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-01-05 08:45:07,063] {logging_mixin.py:104} INFO - [2022-01-05 08:45:07,063] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2022-01-04 00:00:00+00:00
+[2022-01-05 08:45:07,210] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 16.845 seconds
+[2022-01-05 08:45:38,183] {scheduler_job.py:182} INFO - Started process (PID=63) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 08:45:38,191] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 08:45:38,200] {logging_mixin.py:104} INFO - [2022-01-05 08:45:38,199] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:45:48,803] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-01-05 08:45:49,083] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:45:49,183] {logging_mixin.py:104} INFO - [2022-01-05 08:45:49,183] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-01-05 08:45:49,204] {logging_mixin.py:104} INFO - [2022-01-05 08:45:49,204] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2022-01-04 00:00:00+00:00
+[2022-01-05 08:45:49,277] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 11.122 seconds
+[2022-01-05 08:46:19,547] {scheduler_job.py:182} INFO - Started process (PID=64) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 08:46:19,550] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 08:46:19,552] {logging_mixin.py:104} INFO - [2022-01-05 08:46:19,552] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:46:34,967] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-01-05 08:46:35,963] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:46:36,111] {logging_mixin.py:104} INFO - [2022-01-05 08:46:36,111] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-01-05 08:46:36,133] {logging_mixin.py:104} INFO - [2022-01-05 08:46:36,133] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2022-01-04 00:00:00+00:00
+[2022-01-05 08:46:36,320] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 16.810 seconds
+[2022-01-05 08:47:06,431] {scheduler_job.py:182} INFO - Started process (PID=65) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 08:47:06,436] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 08:47:06,440] {logging_mixin.py:104} INFO - [2022-01-05 08:47:06,439] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:47:11,476] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-01-05 08:47:11,534] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:47:11,799] {logging_mixin.py:104} INFO - [2022-01-05 08:47:11,799] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-01-05 08:47:11,913] {logging_mixin.py:104} INFO - [2022-01-05 08:47:11,912] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2022-01-04 00:00:00+00:00
+[2022-01-05 08:47:11,989] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 5.565 seconds
+[2022-01-05 08:47:42,151] {scheduler_job.py:182} INFO - Started process (PID=66) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 08:47:42,153] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 08:47:42,155] {logging_mixin.py:104} INFO - [2022-01-05 08:47:42,154] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:47:57,608] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-01-05 08:48:02,717] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['generate_data']) retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:48:06,080] {logging_mixin.py:104} INFO - [2022-01-05 08:48:06,080] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-01-05 08:48:06,110] {logging_mixin.py:104} INFO - [2022-01-05 08:48:06,110] {dag.py:1837} INFO - Creating ORM DAG for generate_data
+[2022-01-05 08:48:06,281] {logging_mixin.py:104} INFO - [2022-01-05 08:48:06,281] {dag.py:2273} INFO - Setting next_dagrun for generate_data to 2022-01-04 00:00:00+00:00
+[2022-01-05 08:48:06,435] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 24.289 seconds
+[2022-01-05 08:48:37,585] {scheduler_job.py:182} INFO - Started process (PID=67) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 08:48:37,590] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 08:48:37,597] {logging_mixin.py:104} INFO - [2022-01-05 08:48:37,596] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:48:57,914] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-01-05 08:48:59,177] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['generate_data']) retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:48:59,792] {logging_mixin.py:104} INFO - [2022-01-05 08:48:59,792] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-01-05 08:48:59,909] {logging_mixin.py:104} INFO - [2022-01-05 08:48:59,909] {dag.py:2273} INFO - Setting next_dagrun for generate_data to 2022-01-04 00:00:00+00:00
+[2022-01-05 08:49:00,042] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 22.678 seconds
+[2022-01-05 08:49:30,171] {scheduler_job.py:182} INFO - Started process (PID=68) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 08:49:30,173] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 08:49:30,175] {logging_mixin.py:104} INFO - [2022-01-05 08:49:30,175] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:49:39,952] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-01-05 08:49:42,627] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['generate_data']) retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:49:44,302] {logging_mixin.py:104} INFO - [2022-01-05 08:49:44,302] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-01-05 08:49:44,334] {logging_mixin.py:104} INFO - [2022-01-05 08:49:44,334] {dag.py:2273} INFO - Setting next_dagrun for generate_data to 2022-01-04 00:00:00+00:00
+[2022-01-05 08:49:44,445] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 14.279 seconds
+[2022-01-05 08:50:15,284] {scheduler_job.py:182} INFO - Started process (PID=69) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 08:50:15,286] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 08:50:15,288] {logging_mixin.py:104} INFO - [2022-01-05 08:50:15,288] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:50:45,582] {logging_mixin.py:104} INFO - [2022-01-05 08:50:45,582] {timeout.py:36} ERROR - Process timed out, PID: 69
+[2022-01-05 08:50:46,090] {logging_mixin.py:104} INFO - [2022-01-05 08:50:45,582] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/sqldata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqldata.py", line 59, in <module>
+    dag=dag
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 89, in __call__
+    obj: BaseOperator = type.__call__(cls, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py", line 94, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 98, in __init__
+    stacklevel=2,
+  File "/usr/local/lib/python3.6/warnings.py", line 99, in _showwarnmsg
+    msg.file, msg.line)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/settings.py", line 112, in custom_show_warning
+    from rich.markup import escape
+  File "/home/airflow/.local/lib/python3.6/site-packages/rich/markup.py", line 5, in <module>
+    from .style import Style
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 764, in get_code
+  File "<frozen importlib._bootstrap_external>", line 833, in get_data
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/sqldata.py after 30.0s, PID: 69
+[2022-01-05 08:50:46,094] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:50:46,374] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 31.104 seconds
+[2022-01-05 08:51:17,090] {scheduler_job.py:182} INFO - Started process (PID=70) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 08:51:17,097] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 08:51:17,100] {logging_mixin.py:104} INFO - [2022-01-05 08:51:17,100] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:51:48,145] {logging_mixin.py:104} INFO - [2022-01-05 08:51:47,889] {timeout.py:36} ERROR - Process timed out, PID: 70
+[2022-01-05 08:51:54,009] {logging_mixin.py:104} INFO - [2022-01-05 08:51:50,567] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/sqldata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqldata.py", line 9, in <module>
+    import pandas as pd
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/__init__.py", line 30, in <module>
+    from pandas._libs import hashtable as _hashtable, lib as _lib, tslib as _tslib
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/_libs/__init__.py", line 13, in <module>
+    from pandas._libs.interval import Interval
+  File "pandas/_libs/interval.pyx", line 1, in init pandas._libs.interval
+  File "pandas/_libs/hashtable.pyx", line 1, in init pandas._libs.hashtable
+  File "pandas/_libs/missing.pyx", line 1, in init pandas._libs.missing
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/_libs/tslibs/__init__.py", line 30, in <module>
+    from .conversion import OutOfBoundsTimedelta, localize_pydatetime
+  File "pandas/_libs/tslibs/conversion.pyx", line 58, in init pandas._libs.tslibs.conversion
+  File "pandas/_libs/tslibs/parsing.pyx", line 1, in init pandas._libs.tslibs.parsing
+  File "pandas/_libs/tslibs/offsets.pyx", line 1, in init pandas._libs.tslibs.offsets
+  File "<frozen importlib._bootstrap>", line 194, in _lock_unlock_module
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/sqldata.py after 30.0s, PID: 70
+[2022-01-05 08:51:54,171] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:52:03,431] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 46.356 seconds
+[2022-01-05 08:52:35,433] {scheduler_job.py:182} INFO - Started process (PID=71) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 08:52:35,437] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 08:52:35,440] {logging_mixin.py:104} INFO - [2022-01-05 08:52:35,439] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:52:47,091] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-01-05 08:52:48,956] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['generate_data']) retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:52:51,507] {logging_mixin.py:104} INFO - [2022-01-05 08:52:51,507] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-01-05 08:52:51,536] {logging_mixin.py:104} INFO - [2022-01-05 08:52:51,536] {dag.py:2273} INFO - Setting next_dagrun for generate_data to 2022-01-05 00:00:00+00:00
+[2022-01-05 08:52:51,692] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 16.288 seconds
+[2022-01-05 08:53:22,347] {scheduler_job.py:182} INFO - Started process (PID=72) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 08:53:22,350] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 08:53:22,352] {logging_mixin.py:104} INFO - [2022-01-05 08:53:22,352] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:53:52,850] {logging_mixin.py:104} INFO - [2022-01-05 08:53:52,831] {timeout.py:36} ERROR - Process timed out, PID: 72
+[2022-01-05 08:53:56,824] {logging_mixin.py:104} INFO - [2022-01-05 08:53:52,851] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/sqldata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqldata.py", line 59, in <module>
+    dag=dag
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 89, in __call__
+    obj: BaseOperator = type.__call__(cls, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py", line 94, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 98, in __init__
+    stacklevel=2,
+  File "/usr/local/lib/python3.6/warnings.py", line 99, in _showwarnmsg
+    msg.file, msg.line)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/settings.py", line 112, in custom_show_warning
+    from rich.markup import escape
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 764, in get_code
+  File "<frozen importlib._bootstrap_external>", line 833, in get_data
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/sqldata.py after 30.0s, PID: 72
+[2022-01-05 08:53:56,918] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:54:00,120] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 37.831 seconds
+[2022-01-05 08:54:30,321] {scheduler_job.py:182} INFO - Started process (PID=73) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 08:54:30,325] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 08:54:30,327] {logging_mixin.py:104} INFO - [2022-01-05 08:54:30,326] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:54:49,879] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-01-05 08:54:52,750] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['generate_data']) retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:54:53,121] {logging_mixin.py:104} INFO - [2022-01-05 08:54:53,120] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-01-05 08:54:53,207] {logging_mixin.py:104} INFO - [2022-01-05 08:54:53,207] {dag.py:2273} INFO - Setting next_dagrun for generate_data to 2022-01-05 00:00:00+00:00
+[2022-01-05 08:54:53,562] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 23.299 seconds
+[2022-01-05 08:55:23,901] {scheduler_job.py:182} INFO - Started process (PID=74) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 08:55:23,903] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 08:55:23,904] {logging_mixin.py:104} INFO - [2022-01-05 08:55:23,904] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:55:54,432] {logging_mixin.py:104} INFO - [2022-01-05 08:55:54,302] {timeout.py:36} ERROR - Process timed out, PID: 74
+[2022-01-05 08:55:56,013] {logging_mixin.py:104} INFO - [2022-01-05 08:55:54,876] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/sqldata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqldata.py", line 9, in <module>
+    import pandas as pd
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/__init__.py", line 30, in <module>
+    from pandas._libs import hashtable as _hashtable, lib as _lib, tslib as _tslib
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/_libs/__init__.py", line 13, in <module>
+    from pandas._libs.interval import Interval
+  File "pandas/_libs/interval.pyx", line 1, in init pandas._libs.interval
+  File "pandas/_libs/hashtable.pyx", line 1, in init pandas._libs.hashtable
+  File "pandas/_libs/missing.pyx", line 1, in init pandas._libs.missing
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/_libs/tslibs/__init__.py", line 30, in <module>
+    from .conversion import OutOfBoundsTimedelta, localize_pydatetime
+  File "pandas/_libs/tslibs/conversion.pyx", line 58, in init pandas._libs.tslibs.conversion
+  File "pandas/_libs/tslibs/parsing.pyx", line 1, in init pandas._libs.tslibs.parsing
+  File "pandas/_libs/tslibs/offsets.pyx", line 1, in init pandas._libs.tslibs.offsets
+  File "pandas/_libs/tslibs/timestamps.pyx", line 47, in init pandas._libs.tslibs.timestamps
+  File "pandas/_libs/tslibs/fields.pyx", line 40, in init pandas._libs.tslibs.fields
+  File "pandas/_libs/tslibs/strptime.pyx", line 627, in init pandas._libs.tslibs.strptime
+  File "pandas/_libs/tslibs/strptime.pyx", line 557, in pandas._libs.tslibs.strptime.TimeRE.__init__
+  File "pandas/_libs/tslibs/strptime.pyx", line 592, in genexpr
+  File "pandas/_libs/tslibs/strptime.pyx", line 592, in genexpr
+  File "/usr/local/lib/python3.6/re.py", line 249, in escape
+    def escape(pattern):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/sqldata.py after 30.0s, PID: 74
+[2022-01-05 08:55:56,033] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:55:57,039] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 33.143 seconds
+[2022-01-05 08:56:27,210] {scheduler_job.py:182} INFO - Started process (PID=75) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 08:56:27,211] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 08:56:27,212] {logging_mixin.py:104} INFO - [2022-01-05 08:56:27,212] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:56:37,798] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-01-05 08:56:38,303] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['generate_data']) retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:56:38,477] {logging_mixin.py:104} INFO - [2022-01-05 08:56:38,477] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-01-05 08:56:38,519] {logging_mixin.py:104} INFO - [2022-01-05 08:56:38,519] {dag.py:2273} INFO - Setting next_dagrun for generate_data to 2022-01-05 00:00:00+00:00
+[2022-01-05 08:56:38,607] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 11.412 seconds
+[2022-01-05 08:57:08,926] {scheduler_job.py:182} INFO - Started process (PID=76) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 08:57:08,928] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 08:57:08,929] {logging_mixin.py:104} INFO - [2022-01-05 08:57:08,929] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:57:40,200] {logging_mixin.py:104} INFO - [2022-01-05 08:57:40,027] {timeout.py:36} ERROR - Process timed out, PID: 76
+[2022-01-05 08:57:46,504] {logging_mixin.py:104} INFO - [2022-01-05 08:57:42,794] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/sqldata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqldata.py", line 9, in <module>
+    import pandas as pd
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/__init__.py", line 30, in <module>
+    from pandas._libs import hashtable as _hashtable, lib as _lib, tslib as _tslib
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/_libs/__init__.py", line 13, in <module>
+    from pandas._libs.interval import Interval
+  File "pandas/_libs/interval.pyx", line 1, in init pandas._libs.interval
+  File "pandas/_libs/hashtable.pyx", line 1, in init pandas._libs.hashtable
+  File "pandas/_libs/missing.pyx", line 1, in init pandas._libs.missing
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/_libs/tslibs/__init__.py", line 30, in <module>
+    from .conversion import OutOfBoundsTimedelta, localize_pydatetime
+  File "pandas/_libs/tslibs/conversion.pyx", line 58, in init pandas._libs.tslibs.conversion
+  File "pandas/_libs/tslibs/parsing.pyx", line 1, in init pandas._libs.tslibs.parsing
+  File "pandas/_libs/tslibs/offsets.pyx", line 22, in init pandas._libs.tslibs.offsets
+  File "<frozen importlib._bootstrap>", line 966, in _find_and_load
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/sqldata.py after 30.0s, PID: 76
+[2022-01-05 08:57:47,040] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:57:48,699] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 39.776 seconds
+[2022-01-05 08:58:19,900] {scheduler_job.py:182} INFO - Started process (PID=77) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 08:58:19,901] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 08:58:19,902] {logging_mixin.py:104} INFO - [2022-01-05 08:58:19,902] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:58:48,646] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-01-05 08:58:49,269] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['generate_data']) retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:58:50,234] {logging_mixin.py:104} INFO - [2022-01-05 08:58:50,234] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-01-05 08:58:53,601] {logging_mixin.py:104} INFO - [2022-01-05 08:58:53,601] {dag.py:2273} INFO - Setting next_dagrun for generate_data to 2022-01-05 00:00:00+00:00
+[2022-01-05 08:58:53,779] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 34.058 seconds
+[2022-01-05 08:59:24,135] {scheduler_job.py:182} INFO - Started process (PID=78) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 08:59:24,137] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 08:59:24,138] {logging_mixin.py:104} INFO - [2022-01-05 08:59:24,138] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 08:59:54,804] {logging_mixin.py:104} INFO - [2022-01-05 08:59:54,701] {timeout.py:36} ERROR - Process timed out, PID: 78
+[2022-01-05 09:00:03,131] {logging_mixin.py:104} INFO - [2022-01-05 08:59:54,805] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/sqldata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqldata.py", line 59, in <module>
+    dag=dag
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 89, in __call__
+    obj: BaseOperator = type.__call__(cls, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py", line 94, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 98, in __init__
+    stacklevel=2,
+  File "/usr/local/lib/python3.6/warnings.py", line 99, in _showwarnmsg
+    msg.file, msg.line)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/settings.py", line 116, in custom_show_warning
+    write_console = _get_rich_console(file or sys.stderr)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/settings.py", line 104, in _get_rich_console
+    import rich.console
+  File "/home/airflow/.local/lib/python3.6/site-packages/rich/console.py", line 9, in <module>
+    from dataclasses import dataclass, field, replace
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 951, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 894, in _find_spec
+  File "<frozen importlib._bootstrap_external>", line 1157, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 1129, in _get_spec
+  File "<frozen importlib._bootstrap_external>", line 1241, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 82, in _path_stat
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/sqldata.py after 30.0s, PID: 78
+[2022-01-05 09:00:03,413] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 09:00:09,120] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 45.066 seconds
+[2022-01-05 09:00:39,550] {scheduler_job.py:182} INFO - Started process (PID=79) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 09:00:39,552] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 09:00:39,553] {logging_mixin.py:104} INFO - [2022-01-05 09:00:39,553] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 09:00:57,032] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-01-05 09:00:59,027] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['generate_data']) retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 09:00:59,937] {logging_mixin.py:104} INFO - [2022-01-05 09:00:59,937] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-01-05 09:01:00,737] {logging_mixin.py:104} INFO - [2022-01-05 09:01:00,737] {dag.py:2273} INFO - Setting next_dagrun for generate_data to 2022-01-05 00:00:00+00:00
+[2022-01-05 09:01:00,914] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 21.437 seconds
+[2022-01-05 09:01:31,162] {scheduler_job.py:182} INFO - Started process (PID=80) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 09:01:31,163] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 09:01:31,164] {logging_mixin.py:104} INFO - [2022-01-05 09:01:31,164] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 09:02:06,490] {logging_mixin.py:104} INFO - [2022-01-05 09:02:06,474] {timeout.py:36} ERROR - Process timed out, PID: 80
+[2022-01-05 09:02:11,489] {logging_mixin.py:104} INFO - [2022-01-05 09:02:06,494] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/sqldata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqldata.py", line 9, in <module>
+    import pandas as pd
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/__init__.py", line 52, in <module>
+    from pandas.core.api import (
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/api.py", line 29, in <module>
+    from pandas.core.groupby import Grouper, NamedAgg
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/groupby/__init__.py", line 1, in <module>
+    from pandas.core.groupby.generic import DataFrameGroupBy, NamedAgg, SeriesGroupBy
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/groupby/generic.py", line 57, in <module>
+    from pandas.core.aggregation import (
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/aggregation.py", line 27, in <module>
+    from pandas.core.series import FrameOrSeriesUnion, Series
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/series.py", line 4996, in <module>
+    Series._add_series_or_dataframe_operations()
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/generic.py", line 10517, in _add_series_or_dataframe_operations
+    from pandas.core.window import (
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/window/__init__.py", line 1, in <module>
+    from pandas.core.window.ewm import ExponentialMovingWindow  # noqa:F401
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/window/ewm.py", line 9, in <module>
+    import pandas._libs.window.aggregations as window_aggregations
+  File "<frozen importlib._bootstrap>", line 416, in parent
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/sqldata.py after 30.0s, PID: 80
+[2022-01-05 09:02:11,574] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 09:02:23,446] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 52.297 seconds
+[2022-01-05 09:02:32,157] {scheduler_job.py:182} INFO - Started process (PID=82) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 09:02:32,159] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 09:02:32,160] {logging_mixin.py:104} INFO - [2022-01-05 09:02:32,160] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 09:02:49,152] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-01-05 09:02:49,323] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['generate_data']) retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 09:02:49,470] {logging_mixin.py:104} INFO - [2022-01-05 09:02:49,470] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-01-05 09:02:49,526] {logging_mixin.py:104} INFO - [2022-01-05 09:02:49,526] {dag.py:2273} INFO - Setting next_dagrun for generate_data to 2022-01-05 00:00:00+00:00
+[2022-01-05 09:02:49,621] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 17.470 seconds
+[2022-01-05 09:03:19,707] {scheduler_job.py:182} INFO - Started process (PID=83) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 09:03:19,709] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 09:03:19,710] {logging_mixin.py:104} INFO - [2022-01-05 09:03:19,709] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 09:03:49,802] {logging_mixin.py:104} INFO - [2022-01-05 09:03:49,762] {timeout.py:36} ERROR - Process timed out, PID: 83
+[2022-01-05 09:03:54,829] {logging_mixin.py:104} INFO - [2022-01-05 09:03:49,807] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/sqldata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqldata.py", line 9, in <module>
+    import pandas as pd
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/__init__.py", line 52, in <module>
+    from pandas.core.api import (
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/api.py", line 29, in <module>
+    from pandas.core.groupby import Grouper, NamedAgg
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/groupby/__init__.py", line 1, in <module>
+    from pandas.core.groupby.generic import DataFrameGroupBy, NamedAgg, SeriesGroupBy
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/groupby/generic.py", line 69, in <module>
+    from pandas.core.groupby.groupby import (
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/groupby/groupby.py", line 64, in <module>
+    from pandas.core.groupby import base, ops
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 951, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 894, in _find_spec
+  File "<frozen importlib._bootstrap_external>", line 1157, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 1129, in _get_spec
+  File "<frozen importlib._bootstrap_external>", line 1241, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 82, in _path_stat
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/sqldata.py after 30.0s, PID: 83
+[2022-01-05 09:03:57,642] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 09:04:02,651] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 42.957 seconds
+[2022-01-05 09:04:33,805] {scheduler_job.py:182} INFO - Started process (PID=84) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 09:04:33,807] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 09:04:33,808] {logging_mixin.py:104} INFO - [2022-01-05 09:04:33,808] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 09:04:53,199] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-01-05 09:04:53,240] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['generate_data']) retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 09:04:53,550] {logging_mixin.py:104} INFO - [2022-01-05 09:04:53,550] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-01-05 09:04:53,580] {logging_mixin.py:104} INFO - [2022-01-05 09:04:53,580] {dag.py:2273} INFO - Setting next_dagrun for generate_data to 2022-01-05 00:00:00+00:00
+[2022-01-05 09:04:53,655] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 19.874 seconds
+[2022-01-05 09:05:23,899] {scheduler_job.py:182} INFO - Started process (PID=85) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 09:05:23,902] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 09:05:23,903] {logging_mixin.py:104} INFO - [2022-01-05 09:05:23,903] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 09:05:54,377] {logging_mixin.py:104} INFO - [2022-01-05 09:05:54,377] {timeout.py:36} ERROR - Process timed out, PID: 85
+[2022-01-05 09:05:58,530] {logging_mixin.py:104} INFO - [2022-01-05 09:05:54,378] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/sqldata.py
+Traceback (most recent call last):
+  File "<frozen importlib._bootstrap_external>", line 88, in _path_is_mode_type
+  File "<frozen importlib._bootstrap_external>", line 82, in _path_stat
+FileNotFoundError: [Errno 2] No such file or directory: '/home/airflow/.local/lib/python3.6/site-packages/pandas/core/indexes/__init__.cpython-36m-x86_64-linux-gnu.so'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqldata.py", line 9, in <module>
+    import pandas as pd
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/__init__.py", line 52, in <module>
+    from pandas.core.api import (
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/api.py", line 15, in <module>
+    from pandas.core.arrays import Categorical
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/arrays/__init__.py", line 10, in <module>
+    from pandas.core.arrays.interval import IntervalArray
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/arrays/interval.py", line 43, in <module>
+    from pandas.core.indexes.base import ensure_index
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 951, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 894, in _find_spec
+  File "<frozen importlib._bootstrap_external>", line 1157, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 1129, in _get_spec
+  File "<frozen importlib._bootstrap_external>", line 1260, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 96, in _path_isfile
+  File "<frozen importlib._bootstrap_external>", line 88, in _path_is_mode_type
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/sqldata.py after 30.0s, PID: 85
+[2022-01-05 09:05:59,154] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 09:06:04,010] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 40.125 seconds
+[2022-01-05 09:06:35,137] {scheduler_job.py:182} INFO - Started process (PID=86) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 09:06:35,138] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 09:06:35,139] {logging_mixin.py:104} INFO - [2022-01-05 09:06:35,139] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 09:06:36,229] {logging_mixin.py:104} INFO - [2022-01-05 09:06:35,506] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/sqldata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqldata.py", line 23
+    raw_cdr_data = pd.read_csv(dataset_name, header=None, low_memory=False)
+               ^
+SyntaxError: invalid syntax
+[2022-01-05 09:06:36,233] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 09:06:39,261] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 4.171 seconds
+[2022-01-05 09:07:09,445] {scheduler_job.py:182} INFO - Started process (PID=87) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 09:07:09,448] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 09:07:09,450] {logging_mixin.py:104} INFO - [2022-01-05 09:07:09,449] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 09:07:09,523] {logging_mixin.py:104} INFO - [2022-01-05 09:07:09,488] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/sqldata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqldata.py", line 23
+    raw_cdr_data = pd.read_csv(dataset_name, header=None, low_memory=False)
+               ^
+SyntaxError: invalid syntax
+[2022-01-05 09:07:09,531] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 09:07:12,369] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 2.952 seconds
+[2022-01-05 09:07:43,001] {scheduler_job.py:182} INFO - Started process (PID=88) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 09:07:43,003] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 09:07:43,005] {logging_mixin.py:104} INFO - [2022-01-05 09:07:43,004] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 09:07:43,103] {logging_mixin.py:104} INFO - [2022-01-05 09:07:43,067] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/sqldata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqldata.py", line 23
+    raw_cdr_data = pd.read_csv(dataset_name, header=None, low_memory=False)
+               ^
+SyntaxError: invalid syntax
+[2022-01-05 09:07:43,108] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 09:07:44,939] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 1.953 seconds
+[2022-01-05 09:08:15,702] {scheduler_job.py:182} INFO - Started process (PID=89) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 09:08:15,787] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 09:08:15,789] {logging_mixin.py:104} INFO - [2022-01-05 09:08:15,789] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 09:08:15,873] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 09:08:15,880] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 0.590 seconds
+[2022-01-05 09:08:47,157] {scheduler_job.py:182} INFO - Started process (PID=90) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 09:08:47,159] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 09:08:47,160] {logging_mixin.py:104} INFO - [2022-01-05 09:08:47,160] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 09:08:47,161] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 09:08:47,162] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 0.040 seconds
+[2022-01-05 09:09:17,275] {scheduler_job.py:182} INFO - Started process (PID=91) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 09:09:17,277] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 09:09:17,279] {logging_mixin.py:104} INFO - [2022-01-05 09:09:17,279] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 09:09:17,281] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 09:09:17,282] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 0.045 seconds
+[2022-01-05 09:09:47,720] {scheduler_job.py:182} INFO - Started process (PID=92) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 09:09:47,722] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 09:09:47,724] {logging_mixin.py:104} INFO - [2022-01-05 09:09:47,723] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 09:09:47,725] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 09:09:47,727] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 0.033 seconds
+[2022-01-05 09:10:18,868] {scheduler_job.py:182} INFO - Started process (PID=93) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 09:10:18,870] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 09:10:18,870] {logging_mixin.py:104} INFO - [2022-01-05 09:10:18,870] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 09:10:18,871] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 09:10:18,872] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 0.029 seconds
+[2022-01-05 09:10:49,403] {scheduler_job.py:182} INFO - Started process (PID=94) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 09:10:49,405] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 09:10:49,407] {logging_mixin.py:104} INFO - [2022-01-05 09:10:49,407] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 09:10:49,408] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 09:10:49,409] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 0.071 seconds
+[2022-01-05 09:11:19,598] {scheduler_job.py:182} INFO - Started process (PID=95) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 09:11:19,609] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 09:11:19,611] {logging_mixin.py:104} INFO - [2022-01-05 09:11:19,611] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 09:11:19,613] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 09:11:19,614] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 0.033 seconds
+[2022-01-05 09:11:50,019] {scheduler_job.py:182} INFO - Started process (PID=96) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 09:11:50,021] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 09:11:50,022] {logging_mixin.py:104} INFO - [2022-01-05 09:11:50,022] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 09:11:50,023] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 09:11:50,024] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 0.040 seconds
+[2022-01-05 09:12:22,095] {scheduler_job.py:182} INFO - Started process (PID=97) to work on /opt/airflow/dags/sqldata.py
+[2022-01-05 09:12:22,097] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sqldata.py for tasks to queue
+[2022-01-05 09:12:22,099] {logging_mixin.py:104} INFO - [2022-01-05 09:12:22,098] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/sqldata.py
+[2022-01-05 09:12:22,100] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/sqldata.py
+[2022-01-05 09:12:22,101] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sqldata.py took 0.286 seconds
