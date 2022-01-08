@@ -13,7 +13,7 @@ import os
 
 mydir=os.path.join(os.getcwd(),"dags/")
 def generate_data():
-    conn = create_engine('mysql://mysqluser:mysqlpw@192.168.0.8:3000/inventory') # connect to server
+    conn = create_engine('mysql://mysqluser:mysqlpw@3.111.57.236/inventory') # connect to server
     engine = create_engine('sqlite:///telecom.db', echo = True)
     #dataset_header_name = mydir+"raw_cdr_data_header.csv"
     dataset_name = mydir+"raw_cdr_data.csv" #C:\Users\DELL\Downloads\kafka-telecom-project\docker_airflow\dags\raw_cdr_data.csv
