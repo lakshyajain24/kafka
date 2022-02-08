@@ -18,7 +18,7 @@ x-airflow-common:
     - ./sparkFiles:/opt/airflow/sparkFiles
     - ./airflow-data/logs:/opt/airflow/logs
     - ./airflow-data/plugins:/opt/airflow/plugins
-    - ./airflow-data/airflow.cfg:/opt/airlfow/airflow.cfg
+    #- ./airflow-data/airflow.cfg:/opt/airlfow/airflow.cfg
   user: "${AIRFLOW_UID:-1000}:${AIRFLOW_GID:-0}"
   depends_on:
     redis:
@@ -38,6 +38,8 @@ services:
       - '3000:3306'
     expose:
       - '3306'
+    volumes:
+      - my-db:/var/lib/mysql
 
       
   postgres:
@@ -116,4 +118,5 @@ services:
 
 volumes:
   postgres-db-volume:
+  my-db:
 
