@@ -18,7 +18,7 @@ def generate_data():
     #dataset_header_name = mydir+"raw_cdr_data_header.csv"
     dataset_name = mydir+"raw_cdr_data.csv" #C:\Users\DELL\Downloads\kafka-telecom-project\docker_airflow\dags\raw_cdr_data.csv
 
-    n = int(Variable.get('my_iterator'))
+    n = 0 #int(Variable.get('my_iterator'))
     raw_cdr_data = pd.read_csv(dataset_name, header=None, low_memory=False)
     idx = raw_cdr_data.columns.tolist()
     new_df = pd.DataFrame(columns=idx)
