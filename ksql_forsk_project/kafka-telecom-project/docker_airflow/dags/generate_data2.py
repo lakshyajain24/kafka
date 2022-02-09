@@ -15,15 +15,15 @@ mydir=os.path.join(os.getcwd(),"dags/")
 def generate_new():
 
     # conn = create_engine("postgresql://TEST:password@localhost:5432/TEST") 
-    conn = create_engine('mysql://mysqluser:mysqlpw@3.110.157.57:3000/inventory') # connect to server
+    conn = create_engine('mysql://mysqluser:mysqlpw@3.110.157.57:3000/inventory') # connect to server | Change Ip address
     engine = create_engine('sqlite:///telecom.db', echo = True)
     # dataset_name = "data/raw_cdr_data_header.csv"
 
     counts = int(0)
-    while counts==5:
+    while counts<5:
 
-        dataset_header_name = "./data/raw_cdr_data_header.csv"
-        dataset_name = "./data/raw_cdr_data.csv"
+        dataset_header_name = mydir+"raw_cdr_data_header.csv"
+        dataset_name = mydir+"raw_cdr_data.csv"
 
         raw_cdr_data_header= pd.read_csv(dataset_header_name,low_memory=False)
         raw_cdr_data = pd.read_csv(dataset_name, header=None, low_memory=False)
