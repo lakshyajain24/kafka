@@ -19,8 +19,7 @@ def generate_new():
     engine = create_engine('sqlite:///telecom.db', echo = True)
     # dataset_name = "data/raw_cdr_data_header.csv"
 
-    counts = int(0)
-    while counts<5:
+    while True:
 
         dataset_header_name = mydir+"raw_cdr_data_header.csv"
         dataset_name = mydir+"raw_cdr_data.csv"
@@ -39,9 +38,7 @@ def generate_new():
         call_dataset.to_sql('call_dataset_mysql',engine, if_exists='append')
         service_dataset.to_sql('service_dataset_mysql',engine, if_exists='append')
         device_dataset.to_sql('device_dataset_mysql',engine, if_exists='append')
-        sleep(10)
-
-        counts = counts+1
+        sleep(5)
 
 default_args = {
     'owner': 'airflow',
