@@ -15,7 +15,7 @@ mydir=os.path.join(os.getcwd(),"dags/")
 def generate_new():
 
     # conn = create_engine("postgresql://TEST:password@localhost:5432/TEST") 
-    conn = create_engine('mysql://mysqluser:mysqlpw@3.111.51.168:3000/inventory') # connect to server | Change Ip address
+    conn = create_engine('mysql://mysqluser:mysqlpw@65.1.248.64:3000/inventory') # connect to server | Change Ip address
     engine = create_engine('sqlite:///telecom.db', echo = True)
     # dataset_name = "data/raw_cdr_data_header.csv"
 
